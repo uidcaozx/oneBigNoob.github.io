@@ -2,7 +2,7 @@ name: Deploy Blog
 on:
   push:
     branches:
-      - develop
+      - MyBlog2021
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v1
         with:
-          ref: develop
+          ref: MyBlog2021
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v2
         with:
@@ -28,8 +28,8 @@ jobs:
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.email "lujiahao0708@gmail.com"
-          git config --global user.name "lujiahao0708"
+          git config --global user.email "1169272201@qq.com"
+          git config --global user.name "caozhixiang"
       - name: Config hexo 
         run: |  
           sudo npm install hexo-cli -g
