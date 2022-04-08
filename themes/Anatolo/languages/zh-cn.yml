@@ -16,18 +16,18 @@ Links: 友链
 author: 作者
 
 article:
-  read: '读完'
-  about: '大约'
-  words: '个字'
+    read: '读完'
+    about: '大约'
+    words: '个字'
 
 time:
-  minu: 分钟
-  senc: 秒
-
+    minu: 分钟
+    senc: 秒
+    
 insight:
-  hint: '想要查找什么...'
-  posts: '文章'
-  pages: '页面'
-  categories: '分类'
-  tags: '标签'
-  untitled: '(无标题)'
+    hint: '想要查找什么...'
+    posts: '文章'
+    pages: '页面'
+    categories: '分类'
+    tags: '标签'
+    untitled: '(无标题)'
