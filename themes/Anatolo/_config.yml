@@ -6,7 +6,7 @@ description: A simple and beautiful blog
 # icon
 # 如果尺寸不当请修改style.css和style.scss
 favicon: /images/favicon.webp
-avatar: /images/logo.webp
+avatar: /images/me.jpg
 logo_dir: /images/logo@2x.webp
 logo_style: width:200px;
 
@@ -31,10 +31,10 @@ footbar:
 
 # Social Links
 # If you want to add more, go to sidebar.pug
-github: https://github.com/Lhcfl
-mail: yourname@example.com
-zhihu: https://zhihu.com/people/jin-xin-4-68
-QQ: 
+github: https://github.com/oneBigNoob
+mail: zhixiang_hehe@163.com
+zhihu: 
+QQ: 1169272201
 twitter:
 instagram:
 rss:
